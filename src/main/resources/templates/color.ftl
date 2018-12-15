@@ -11,7 +11,7 @@
     <div>
         <form name="color" action="add.html" method="POST">
             <fieldset>
-                <legend>adding a specific color</legend>
+                <legend>add a specific color</legend>
                 <label for="code">code: </label>
                 <input type="text" maxlength="7" id="code" name="code"/>
                 <br/>
