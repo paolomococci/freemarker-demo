@@ -1,0 +1,50 @@
+body {
+    width: 600px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: -10px;
+    background-color: #b4ffda;
+}
+
+fieldset {
+    font-size: 14px;
+    margin: 0.5em;
+    background-color: #d8ffd8;
+}
+
+legend {
+    padding: 0.2em;
+}
+
+label {
+    padding: 0.2em;
+    font-variant: small-caps;
+}
+
+input {
+    margin: 0.5em;
+}
+
+table {
+    background-color: #ffffff;
+}
+
+th {
+    font-size: 14px;
+    margin: 3px;
+    align-content: center;
+    background-color: #d5d5d5;
+}
+
+td {
+    font-size: 12px;
+    margin: 2px;
+    align-content: center;
+    background-color: #c4c4c4;
+}
+
+small {
+    font-variant: small-caps;
+}
