@@ -10,7 +10,7 @@
     <hr/>
     <ul>
         <li><a href="hello.html">simply hello page</a></li>
-        <li><a href="color.html">list of color page</a></li>
+        <li><a href="color.html">page with list of color</a></li>
     </ul>
     <hr/>
 </body>
