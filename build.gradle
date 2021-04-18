@@ -9,7 +9,7 @@ plugins {
 
 group = 'local.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
 	mavenCentral()
@@ -25,16 +25,13 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-compileKotlin {
+tasks.withType<KotlinCompile> {
 	kotlinOptions {
-		freeCompilerArgs = ['-Xjsr305=strict']
-		jvmTarget = '1.8'
+		freeCompilerArgs = listOf("-Xjsr305=strict")
+		jvmTarget = "11"
 	}
 }
 
-compileTestKotlin {
-	kotlinOptions {
-		freeCompilerArgs = ['-Xjsr305=strict']
-		jvmTarget = '1.8'
-	}
+tasks.withType<Test> {
+	useJUnitPlatform()
 }
